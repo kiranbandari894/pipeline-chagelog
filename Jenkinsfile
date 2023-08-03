@@ -3,10 +3,10 @@ pipeline{
   stages{
      stage("Build Master"){
         when{
-           tag 'release-*'
+           changelog '.*some_text.*'
         }
          steps{
-           echo "Building Tag catched in main"
+           echo "Change log picked successfully"
          }
      }     
     
