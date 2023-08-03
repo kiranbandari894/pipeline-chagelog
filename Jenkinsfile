@@ -3,7 +3,7 @@ pipeline{
   stages{
      stage("Build Master"){
         when{
-           changelog '.*some_text.*'
+           changeRequest()
         }
          steps{
            echo "Change log picked successfully"
