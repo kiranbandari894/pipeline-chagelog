@@ -1,1 +1,2 @@
-addmin gThis is test 2
+addmin gThis is test 2 
+some_text
